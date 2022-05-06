@@ -1,0 +1,283 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "NotoBold";
+  src: url("../fonts/notosans-bold-webfont.eot");
+  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../fonts/notosans-italic-webfont.eot");
+  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoLight";
+  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  background: #ffffff;
+}
+
+.navbar {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header {
+  background: url(../imgs/header.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.grouptexto {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  opacity: 86%;
+  top: 353px;
+  margin-left: 370px;
+  margin-right: 370px;
+}
+
+.bg-light {
+  background-color: #353f46db !important;
+}
+
+.bg-dark {
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+}
+
+.navbar-dark .navbar-nav2 .nav-link2:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 32rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-brand2 {
+  color: #353f47;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 28rem;
+  margin-left: 173px;
+  font-size: 30px;
+  font-family: light;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-style: none;
+  padding-right: 3.5rem;
+  font-family: "NotoBold";
+  font-size: 14px;
+}
+
+.navbar-dark .navbar-nav2 .nav-link2 {
+  color: #353f46;
+  text-decoration: none;
+  padding-right: 3.5rem;
+  font-family: "NotoBold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-brand strong {
+  color: #4bcaff;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+  font-family: "NotoBold";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 23px;
+  margin-right: 442px;
+  margin-left: 146px;
+}
+
+.texto {
+  font-size: 42px;
+  font-family: "NotoLight";
+  background-color: #353f47;
+  margin-right: 241px;
+  margin-left: 241px;
+  padding: 5px;
+}
+
+.texto2 {
+  font-size: 42px;
+  font-family: "NotoLight";
+  background-color: #353f47;
+  margin-right: 194px;
+  margin-left: 194px;
+  padding: 5px;
+}
+
+.titulo2 {
+  font-size: 42px;
+  font-family: "NotoLight";
+  position: absolute;
+  color: #ffffff;
+  bottom: 224px;
+  bottom: 282px;
+  left: 280px;
+}
+
+.parrafo {
+  font-size: 14px;
+  font-family: "NotoLight";
+  position: absolute;
+  color: #ffffff;
+  top: 144px;
+}
+
+.imagenes {
+  padding: 47px;
+}
+.imagenes .row {
+  --bs-gutter-x: -7.5rem;
+  --bs-gutter-y: 3rem;
+}
+
+.barra_info {
+  background: #4bcaff;
+  padding: 8rem;
+}
+
+.default_section {
+  background: #515f67;
+}
+.default_section .row {
+  padding-left: 108px;
+  padding-top: 66px;
+}
+
+.parrafo2 h5 {
+  font-size: 30px;
+  font-family: light;
+}
+.parrafo2 p {
+  font-size: 14px;
+  font-family: regular;
+}
+
+.contenedor {
+  height: 0px;
+  width: 100%;
+  max-width: 560px;
+  /* Así establecemos el ancho máximo (si lo queremos) */
+  padding-top: 56.25%;
+  /* Relación: 16/9 = 56.25% */
+  position: relative;
+}
+.contenedor iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.btn_visit_me {
+  margin-left: 29px;
+}
+.btn_visit_me a {
+  font-size: 14px;
+  font-family: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.btn_visit_me:hover {
+  color: black;
+  border: 2px solid #4bcaff;
+}
+
+.twitter {
+  background: #4bcaff;
+  padding: 0;
+}
+
+.camera {
+  padding: 0;
+}
+
+.testimonials {
+  color: #515f67;
+  padding: 0;
+}
+
+.contact {
+  background: #515f67;
+  padding: 0;
+}
+
+.col-12 {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.titulo {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "NotoRegular";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 44px;
+}
+
+.tituloserv {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "NotoRegular";
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 44px;
+}
+
+.tituloserv::after {
+  content: "";
+  display: block;
+  width: 1.7em;
+  padding-top: 0.25em;
+  border-bottom: 0.2em solid #FFFFFF;
+}
+
+.h5, h5 {
+  font-size: 1.25rem;
+  padding-top: 18px;
+}

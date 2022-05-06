@@ -1,0 +1,308 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+$top-menu_visit-me: #353f46;
+$e_selected-menu_twitter-section_testimonial-name_message-button: #4bcaff;
+$header-copy: #404a52;
+$dark-copy_just-default-section: #515f67;
+$white-copy: #ffffff;
+$footer: #353f47;
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    background: $white-copy; 
+}
+
+
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  
+  }
+
+  .header {
+    background: url(../imgs/header.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+
+.grouptexto{
+
+  position: relative;
+  align-items: center;
+  text-align: center;
+  color: $white-copy;
+
+  opacity: 86%;
+  top: 353px;
+  margin-left: 370px;
+  margin-right: 370px;
+}
+
+
+.bg-light {
+  background-color: #353f46db !important;
+  
+}
+
+.bg-dark {
+  background-color: $white-copy!important;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: $white-copy;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $e_selected-menu_twitter-section_testimonial-name_message-button;
+  border: 2px solid $e_selected-menu_twitter-section_testimonial-name_message-button;
+}
+
+
+.navbar-dark .navbar-nav2 .nav-link2:hover {
+color: $e_selected-menu_twitter-section_testimonial-name_message-button;
+border: 2px solid $e_selected-menu_twitter-section_testimonial-name_message-button;
+}
+
+.navbar-brand {
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 32rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-brand2 {
+color: $footer;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+margin-right: 28rem;
+margin-left: 173px;
+font-size: 30px;
+font-family: light;
+text-decoration: none;
+white-space: nowrap;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: $white-copy;
+font-style: none;
+padding-right: 3.5rem;
+font-family: 'NotoBold';
+font-size: 14px;
+}
+
+.navbar-dark .navbar-nav2 .nav-link2 {
+color: $top-menu_visit-me;
+text-decoration: none;
+padding-right: 3.5rem;
+font-family: 'NotoBold';
+font-weight: normal;
+font-style: normal;
+font-size: 14px;
+}
+
+.navbar-light .navbar-brand strong {
+color: $e_selected-menu_twitter-section_testimonial-name_message-button;
+}
+
+.navbar-light .navbar-brand {
+color: $white-copy;
+font-family: 'NotoBold';
+font-weight: normal;
+font-style: normal;
+font-size: 23px;
+margin-right: 442px;
+margin-left: 146px;
+
+}
+
+
+
+  
+
+
+.texto {
+  font-size: 42px;
+  font-family: 'NotoLight';
+  background-color: $footer;
+  margin-right: 241px;
+  margin-left: 241px;
+  padding: 5px;
+}
+
+.texto2 {
+  font-size: 42px;
+  font-family: 'NotoLight';
+  background-color: $footer;
+  margin-right: 194px;
+  margin-left: 194px;
+  padding: 5px;
+}
+
+.titulo2{
+  font-size: 42px;
+  font-family: 'NotoLight';
+  position: absolute;
+  color: $white-copy;
+  bottom: 224px;
+  bottom: 282px;
+    left: 280px;
+}
+
+.parrafo{
+  font-size: 14px;
+  font-family: 'NotoLight';
+  position: absolute;
+  color: $white-copy;
+ 
+  top: 144px;
+ 
+}
+
+
+
+.imagenes{
+  padding: 47px;
+  .row{
+
+--bs-gutter-x: -7.5rem;
+    --bs-gutter-y: 3rem;
+  }
+}
+  
+ 
+.barra_info{
+  background: $e_selected-menu_twitter-section_testimonial-name_message-button;
+  padding: 8rem;
+}
+
+.default_section{
+  
+  background: $dark-copy_just-default-section;
+
+  .row{
+    padding-left: 108px;
+    padding-top: 66px;
+  }
+ 
+}
+
+.parrafo2{
+  h5{
+ font-size: 30px;
+ font-family: light;
+  }
+
+  p{
+font-size: 14px;
+font-family: regular;
+
+  }
+
+}
+
+
+  .contenedor{
+  height:0px;
+  width:100%;
+  max-width:560px; /* Así establecemos el ancho máximo (si lo queremos) */
+  padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+  position:relative;
+  iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    }
+  }
+
+  
+
+.btn_visit_me{
+  margin-left: 29px;
+  
+  a{
+    font-size: 14px;
+    font-family: bold;
+    color:black;
+    text-decoration: none;
+  }
+}
+
+.btn_visit_me:hover{
+  color: black;
+  border: 2px solid $e_selected-menu_twitter-section_testimonial-name_message-button;
+}
+
+.twitter{
+  background: $e_selected-menu_twitter-section_testimonial-name_message-button;
+  padding: 0;
+}
+
+.camera{
+  
+  padding: 0;
+}
+.testimonials{
+  color:$dark-copy_just-default-section;
+  padding: 0;
+}
+
+.contact{
+  background: $dark-copy_just-default-section;
+  padding: 0;
+}
+
+.col-12{
+  color: $white-copy;
+  font-size: 12px;
+  
+}
+
+.titulo{
+  color: $white-copy;
+  font-size: 30px;
+  font-family: 'NotoRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 44px;
+
+}
+
+.tituloserv{
+  color: $white-copy;
+  font-size: 30px;
+  font-family: 'NotoRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 44px;
+}
+
+.tituloserv::after{
+  content: "";
+  display: block;
+  width: 1.7em;
+  padding-top: 0.25em;
+  border-bottom: 0.2em solid #FFFFFF;
+}
+
+
+
+
+
+.h5, h5 {
+  font-size: 1.25rem;
+  padding-top: 18px;
+
+
+}
